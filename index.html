@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <title>site chat</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+  <header>
+    <nav class="navbar navbar-expand-lg   navbar-dark bg-dark">
+
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"> <img class="mx-2" width="30" src="img/bootstrap-solid.svg"
+            alt="">Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Documentations</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exemples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exercices</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline btn-info " type="submit">Chercher</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- shadow-sm -->
+  <main class="container  ">
+    <h1 class="mb-5 mt-4 border-bottom pb-3 ">Bootstrap Version 5</h1>
+    <section class="bg-white p-3 pb-3">
+
+
+      <h2 class="mb-5 border-bottom  border-1 border-success pb-3 text-success text-center">Testez les "col" en
+        responsive </h2>
+
+      <div class="row g-5 justify-content-center">
+        <img src="img/c1.jpg" class="rounded-circle col-lg-2 col-md-6 " alt="Cinque Terre">
+        <img src="img/c2.jpg" class="rounded-circle col-lg-2 col-md-6 " alt="Cinque Terre">
+        <img src="img/c3.jpg" class="rounded-circle col-lg-2 col-md-6 " alt="Cinque Terre">
+        <img src="img/c4.jpg" class="rounded-circle col-lg-2 col-md-6 " alt="Cinque Terre">
+      </div>
+    </section>
+
+    <section class=" bg-white mt-4 p-3 mb-5 ">
+      <h2 class="  border-bottom  border-1 pt-5 border-success pb-3 text-success text-center ">Testez les
+        formulaires
+      </h2>
+
+      <div class="p-5 pt-3 pe-2">
+        <div class="row">
+          <div class="col-2 ">
+            <label for="inputPassword6" class="col-form-label ">Civilité</label>
+          </div>
+          <div class="form-check col-1 form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">Mme</label>
+          </div>
+          <div class="form-check col-1 form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">Mr</label>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-2 ">
+            <label for="inputPassword6" class="col-form-label ">Prénom</label>
+          </div>
+          <div class="col-10">
+            <input type="password" id="inputPassword6" class="form-control" placeholder="Prénom"
+              aria-describedby="passwordHelpInline">
+          </div>
+
+        </div>
+
+        <div class="col-auto">
+
+        </div>
+
+
+        <div class="row  mt-2 p-0  ">
+          <div class="col-2">
+            <label for="inputPassword6" class="col-form-label">Nom</label>
+          </div>
+          <div class="col-10">
+            <input type="password" id="inputPassword6" class="form-control" placeholder="Nom"
+              aria-describedby="passwordHelpInline">
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button type="button" class="btn btn-danger mt-3 mb-5 ">Annuler</button>
+          <button type="button" class="btn btn-primary mt-3 mb-5 ">Envoyer</button>
+        </div>
+      </div>
+    </section>
+    <!-- alert -->
+    <section>
+      <div class="alert alert-info container alert  text-center p-3  mb-4  " role="alert">
+        <h4 class="alert-heading">Félicitations !!!!</h4>
+        Bootstrap :)
+        <hr>
+        <p>
+          Vous pouvez continuer à vous entrainer grâce à :
+          <a href="https://getbootstrap.com">https://getbootstrap.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+  <!-- footer -->
+  <footer class="p-4  bg-dark text-white text-center  ">
+
+    Bienvenue sur notre site
+
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
